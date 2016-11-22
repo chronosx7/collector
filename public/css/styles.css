@@ -1,0 +1,189 @@
+.bordered{
+    border: solid 1px;
+}
+.border-bottom{
+    border-bottom: solid 1px;
+}
+.border-right{
+    border-right: solid 1px;
+}
+.border-left{
+    border-left: solid 1px;
+}
+.border-red{
+    border-color: rgb(255, 0, 0);
+}
+
+.border-green{
+    border-color: rgb(0, 255, 150);
+}
+
+.border-blue{
+    border-color: rgb(0, 0, 255);
+}
+
+.border-grey{
+    border-color: rgb(175, 175, 175);
+}
+
+.full-height{
+    height: 100%;
+}
+
+.half-height{
+    height: 50%;
+}
+.height-5{
+    height: 5%;
+}
+.height-10{
+    height: 10%;
+}
+.height-20{
+    height: 20%;
+}
+.height-30{
+    height: 30%;
+}
+.height-35{
+    height: 35%;
+}
+.height-40{
+    height: 40%;
+}
+.height-45{
+    height: 45%;
+}
+.height-50{
+    height: 50%;
+}
+.height-60{
+    height: 60%;
+}
+.height-65{
+    height: 65%;
+}
+.height-70{
+    height: 70%;
+}
+.height-80{
+    height: 80%;
+}
+.height-90{
+    height: 90%;
+}
+.height-95{
+    height: 95%;
+}
+
+.top-bar-row{
+    height: 40px;
+}
+.no-padding{
+    padding: 0;
+}
+.padding-xs{
+    padding: 2px;
+}
+.padding-sm{
+    padding: 5px;
+}
+
+.margin-sm{
+    margin: 2px;
+}
+
+.margin-xs{
+    margin: 1px;
+}
+
+.no-style-list{
+    list-style: none;
+}
+
+.app-container{
+    height: 95vh;
+    margin-top: 52px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.auto-scroll{
+    overflow: auto;
+}
+
+.panel-bottom-container{
+    padding: 2px 2px 45px 2px;
+}
+.panel-bottom{
+    width: 95%;
+    position: absolute;
+    bottom: 5px;
+    left: 2%;
+    margin: 0;
+}
+
+/** Card Creation **/
+.yugioh_form .formly-field-group .formly-field-checkbox:nth-child(3n+3){
+    clear: left;
+}
+
+droplet{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 92%;
+}
+droplet-preview{
+    display: inline-block;
+    border: solid 1px;
+    width: 100%;
+    height: 100%;
+}
+
+div.images{
+    width: 100%;
+    height: 100%;
+    border: solid 1px;
+}
+div.image-preview{
+    width: 100%;
+    height: 100%;
+}
+div.image-preview img.droplet-preview {
+    height: 100%;
+    width: auto;
+    margin: 0 auto 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+}
+.card-thumbnail:hover{
+    cursor: pointer;
+}
+.card-thumbnail.selected,
+.card-thumbnail:hover{
+    background-color: rgb(150, 150, 150);
+}
+.card-thumbnail img.selected,
+.card-thumbnail img:hover{
+    background-color: rgb(220, 220, 220);
+}
+.card-thumbnail img{
+    margin-bottom: 0px;
+}
+ul[dnd-list], ul[dnd-list] > li {
+    position: relative;
+}
+
+.itemList.margin-top{
+    margin-top: 40px;
+}
+.inner-top-button{
+    position: absolute;
+    top: 5px;
+}
+.inner-top-button.top-right{
+    right: 5px;
+}

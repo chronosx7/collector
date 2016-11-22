@@ -1,0 +1,9 @@
+DELETE FROM yugioh_cards_list WHERE 1 = 1;
+DELETE FROM yugioh_card_images WHERE 1 = 1;
+DELETE FROM yugioh_images_list WHERE 1 = 1;
+DELETE FROM yugioh_side_deck_cards WHERE 1 = 1;
+DELETE FROM yugioh_extra_deck_cards WHERE 1 = 1;
+DELETE FROM yugioh_main_deck_cards WHERE 1 = 1;
+DELETE FROM yugioh_monster_families WHERE 1 = 1;
+DELETE FROM yugioh_monster_data WHERE 1 = 1;
+DELETE FROM yugioh_deck_list WHERE 1 = 1;
